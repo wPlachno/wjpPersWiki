@@ -1,7 +1,7 @@
 {
 	"useSideMenu": true,
 	"lineBreaks": "gfm",
-	"additionalFooterText": "The Plachno Wiki, All content and images &copy; by William Plachno",
+	"additionalFooterText": "The Plachno Wiki, All content and images &copy; by William Plachno\br\br",
 	"anchorCharacter": "#",
 	"title": "Woodchipper Wiki"
 }
