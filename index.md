@@ -31,8 +31,9 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 These are all the articles regarding wikis, be they about specific implementations, such as [OtterWiki](otterwiki.md), or even about interesting plugins like [MarkMap](markmap.md).
 
-[OtterWiki](otterwiki.md)
-[MarkMap](markmap.md)
+[OtterWiki](otterwiki.md) - A Python-based git-backed wiki platform.
+
+[MarkMap](markmap.md) - A tool for representing Markdown files as mind maps
 
 <!---
 ##### Operating Systems
@@ -42,17 +43,19 @@ These are all the articles regarding wikis, be they about specific implementatio
 
 These articles center around the academics of Computer Science, the higher level topics.
 
-[Algorithms and Design](algorithmanddesign.md)
+[Algorithms and Design](algorithmanddesign.md) - Data structures, design patterns, and more.
+
+[Network Programming](networkprogramming.md) - Just a link to Beej's Network Programming guide.
 
 ### Homelab
 
 These articles concern the electronics projects I have at home. 
 
-[Raspberry Pi](raspberrypi.md) 
+[Raspberry Pi](raspberrypi.md) - A small computer to be used for server projects.
 
 ## Journalling
 
 These are private articles. 
 
-[Note-Keeping](notekeeping.md)
+[Note-Keeping](notekeeping.md) 
 
