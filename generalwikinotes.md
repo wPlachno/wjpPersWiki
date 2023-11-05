@@ -18,10 +18,20 @@ With these three article types defined, there are some common structural ideas t
 
 - **Personnel Articles**: A subject article about a specific person, which may include important data like their birthdate or, in a more secure wiki, their last known address. 
 
-## Personal Wiki Structure
+## Common Use Cases
 
-While everyone has their own needs for using a personal wiki, there are some common use-cases, including a contact list of personnel articles or journalling for mental health.
+While everyone has their own needs for using a personal wiki, there are some common use-cases. Whether a wiki is the best solution for these use cases is not discussed here, only that a wiki has been used this way. 
 
 - **Contact List**: A list of personnel articles which usually include names, phone numbers, and birthdates, but may also include likes and dislikes, portraits, or even common conversation topics.
 
+- **Code Repository**: With a wiki, any sort of code repository should be done in snippets. 
+
+- **Inventory Management**: A description of a collection, either item by item or just a list. May include quantities, prices/values, and other important data. 
+
 - **Journals**: Periodic entries whose purpose may include listing emotional state, a changelog of some sort, or even just trackers of whether or not a task was completed that day. 
+
+- **Knowledge Base**: A collection of information for later retrieval. Unlike in a public wiki, where the knowledge is intended to be as complete as possible, the knowledge base of a personal wiki may be focused to only information that the user is likely to forget. 
+
+- **Recipe Collection**: A set of articles used to store recipes, usually culinary recipes, which typically consist of a list of ingredients and a set of steps, but may also include a rating system, different sets of modifications, or a list of dates the recipe was used.
+
+- **Walkthroughs**: A set of steps to accomplish a task. 
