@@ -1,6 +1,6 @@
 # General Wiki Ideas
 
-Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for my own Content Management System.
+Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for [my own Content Management System](project_wiki.md).
 
 ## Types of Articles
 
