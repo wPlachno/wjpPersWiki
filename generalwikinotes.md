@@ -1,5 +1,7 @@
 # General Wiki Ideas
 
+Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for my own Content Management System.
+
 ## Types of Articles
 
 Many wikis are used for many different reasons. This wiki was started as a personal knowledge base, meant to keep track of knowledge that the user does not want to lose. These knowledge articles usually come in three different varieties: 
