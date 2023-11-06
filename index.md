@@ -31,6 +31,8 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 These are all the articles regarding wikis, be they about specific implementations, such as [OtterWiki](otterwiki.md), or even about interesting plugins like [MarkMap](markmap.md).
 
+[MDWiki](mdwiki.md) - A single-file wiki that displays markdown files in the same directory. (The solution this wiki uses).
+
 [OtterWiki](otterwiki.md) - A Python-based git-backed wiki platform.
 
 [MarkMap](markmap.md) - A tool for representing Markdown files as mind maps
