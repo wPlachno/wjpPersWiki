@@ -1,6 +1,6 @@
 # Welcome to Will Plachno's Personal Wiki
 
-Right now, this is a self-driven project to create a Github hosted personal wiki. for more information, see the [about page](about.md).
+Right now, this is a self-driven project to create a Github hosted personal wiki using [MDWiki](mdwiki.md) and [Markdown](markdown-cheat-sheet.md). For more information, see the [about page](about.md).
 
 ## Personnel
 
