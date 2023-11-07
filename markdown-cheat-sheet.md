@@ -10,9 +10,11 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Heading
 
-	# H1
-	## H2
-	### H3
+```
+# H1
+## H2
+### H3
+```
 
 # H1
 ## H2
@@ -20,63 +22,85 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Bold
 
-	**bold text**
+```
+**bold text**
+```
 
 **bold text**
 
 ### Italic
 
-	*italicized text*
+```
+*italicized text*
+```
 
 *italicized text*
 
 ### Blockquote
-
-	> blockquote
+```
+> blockquote
+```
 
 > blockquote
 
 ### Ordered List
 
-	1. First item
-	2. Second item
-	3. Third item
+```
+1. First item
+2. Second item
+	a. Sub-item (Note that indentation is just four spaces)
+3. Third item
+```
 
 1. First item
 2. Second item
+    a. Sub-item (Note that indentation is just four spaces)
 3. Third item
 
 ### Unordered List
 
-	- First item
-	- Second item
-	- Third item
+```
+- First item
+- Second item
+	a. Sub-item (Note that indentation is just four spaces)
+- Third item
+```
 
 - First item
 - Second item
+    a. Sub-item (Note that indentation is just four spaces)
 - Third item
 
 ### Code
-
-	`code`
+```
+`code` or \`\`\`code\`\`\`
+```
 
 `code`
+or
+```code```
 
 ### Horizontal Rule
 
-	---
+```
+---
+```
 
 ---
 
 ### Link
 
-	[Markdown Guide](https://www.markdownguide.org)
+```
+[Markdown Guide](https://www.markdownguide.org)
+```
 
 [Markdown Guide](https://www.markdownguide.org)
 
 ### Image
 
-	![alt text](https://www.markdownguide.org/assets/images/tux.png)
+```
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+```
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
@@ -86,10 +110,12 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Table
 
-	| Syntax | Description |
-	| ----------- | ----------- |
-	| Header | Title |
-	| Paragraph | Text |
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
 
 | Syntax | Description |
 | ----------- | ----------- |
@@ -98,13 +124,15 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Fenced Code Block
 
-	```
-	{
-	  "firstName": "John",
-	  "lastName": "Smith",
-	  "age": 25
-	}
-	```
+```
+\`\`\`
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+\`\`\`
+```
 
 ```
 {
@@ -116,9 +144,11 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Footnote
 
-	Here's a sentence with a footnote. [^1]
+```
+Here's a sentence with a footnote. [^1]
 
-	[^1]: This is the footnote.
+[^1]: This is the footnote.
+```
 
 Here's a sentence with a footnote. [^1]
 
@@ -126,29 +156,37 @@ Here's a sentence with a footnote. [^1]
 
 ### Heading ID
 
-	### My Great Heading {#custom-id}
+```
+### My Great Heading {#custom-id}
+```
 
 ### My Great Heading {#custom-id}
 
 ### Definition List
 
-	term
-	: definition
+```
+term
+: definition
+```
 
 term
 : definition
 
 ### Strikethrough
 
-	~~The world is flat.~~
+```
+~~The world is flat.~~
+```
 
 ~~The world is flat.~~
 
 ### Task List
 
-	- [x] Write the press release
-	- [ ] Update the website
-	- [ ] Contact the media
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
 
 - [x] Write the press release
 - [ ] Update the website
@@ -156,7 +194,9 @@ term
 
 ### Emoji
 
-	That is so funny! :joy:
+```
+That is so funny! :joy:
+```
 
 That is so funny! :joy:
 
@@ -164,18 +204,46 @@ That is so funny! :joy:
 
 ### Highlight
 
-	I need to highlight these ==very important words==.
+```
+I need to highlight these ==very important words==.
+```
 
 I need to highlight these ==very important words==.
 
 ### Subscript
 
-	H~2~O
+```
+H~2~O
+```
 
 H~2~O
 
 ### Superscript
 
-	X^2^
+```
+X^2^
+```
 
 X^2^
+
+### Collapsible Text
+
+```
+<details open> <!-- Leave out 'open' to have it closed on load -->
+<summary>Text when collapsed</summary>
+**Text** in the [collapsible](google.com).
+</details>
+```
+
+<details open> <!-- Leave out 'open' to have it closed on load -->
+<summary>Text when collapsed</summary>
+**Text** in the [collapsible](google.com).
+</details>
+
+### Mini Text
+
+```
+<sup>Tiny Text</sub>
+```
+
+<sup>Tiny Text</sub>
