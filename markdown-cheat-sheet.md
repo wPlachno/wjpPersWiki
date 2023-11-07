@@ -48,13 +48,11 @@ These are the elements outlined in John Gruber’s original design document. All
 
 	1. First item
 	2. Second item
-		a. Sub-item (Note that indentation is just four spaces)
 	3. Third item
 
 
 1. First item
 2. Second item
-    a. Sub-item (Note that indentation is just four spaces)
 3. Third item
 
 ### Unordered List
@@ -62,23 +60,19 @@ These are the elements outlined in John Gruber’s original design document. All
 
 	- First item
 	- Second item
-		a. Sub-item (Note that indentation is just four spaces)
 	- Third item
 
 
 - First item
 - Second item
-    a. Sub-item (Note that indentation is just four spaces)
 - Third item
 
 ### Code
 
-	`code` or \`\`\`code\`\`\`
+	`code` 
 
 
 `code`
-or
-```code```
 
 ### Horizontal Rule
 
@@ -125,13 +119,13 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ### Fenced Code Block
 
 
-	\`\`\`
+	```
 	{
 		"firstName": "John",
 		"lastName": "Smith",
 		"age": 25
 	}
-	\`\`\`
+	```
 
 
 ```
