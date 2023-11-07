@@ -218,11 +218,3 @@ H~2~O
 	X^2^
 
 X^2^
-
-### Mini Text
-
-
-	<sup>Tiny Text</sub>
-
-
-<sup>Tiny Text</sub>
