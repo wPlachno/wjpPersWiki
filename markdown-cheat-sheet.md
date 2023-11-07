@@ -226,20 +226,6 @@ X^2^
 
 X^2^
 
-### Collapsible Text
-
-```
-<details open> <!-- Leave out 'open' to have it closed on load -->
-<summary>Text when collapsed</summary>
-**Text** in the [collapsible](google.com).
-</details>
-```
-
-<details open> <!-- Leave out 'open' to have it closed on load -->
-<summary>Text when collapsed</summary>
-**Text** in the [collapsible](google.com).
-</details>
-
 ### Mini Text
 
 ```
