@@ -31,6 +31,8 @@ You can also set up your MDWiki with a navigation bar. This bar is defined by a 
 	[Home](index.md)
 	[About](about.md)
 	
-	
-	
-	
+## Interesting MDWiki Things
+
+[rbkhb's Natural Language Processing Class](https://github.com/auNLP/mdwikiNLP) is a Github hosted MDWiki built by a teacher to organize the materials for their class, including resources for each session and more.
+
+[HaydenLeBaron's Wiki Visualizer](https://github.com/HaydenLeBaron/mdwiki-cartographer) is a python program that runs through a markdown library structured like MDWiki and generates a directed graph of the nodes and the links between them. So far, this is the closest thing to the visualization idea I had, but without the graphical prettyness.
