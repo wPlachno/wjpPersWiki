@@ -33,30 +33,34 @@ De Anza College
 ### Work History
 
 **Illusive Comics & Games**, Los Gatos — *Customer Service Representative and Games Ordering Manager*
-<sup>NOV 2019 - PRESENT</sup>
+<sup>November 2019 - Present</sup>
 - Managed a team and improved group cohesion, leading to a 220% increase in revenue despite the Covid epidemic.
 
+**Great Bear Coffee**, Los Gatos — *Barista and Manager*
+<sup>June 2015 - September 2019</sup>
+- Managed and shaped a team through hiring, teaching, scheduling, ordering, and general support.
+
 **lovetessajoy.com**, Los Gatos — *Web Development Assistant*
-<sup>NOV 2016 - FEB 2017</sup>
+<sup>November 2016 - February 2017</sup>
 - Assisted in the setup and maintenance of a WordPress blog
 - Educated the site owner in continuous content generation
 
-**Great Bear Coffee**, Los Gatos — *Barista and Manager*
-<sup>JUNE 2015 - SEP 2019</sup>
-- Managed and shaped a team through hiring, teaching, scheduling, ordering, and general support.
-
 **elqc.com**, Los Gatos — *Web Developer*
-<sup>NOV 2014 - MAR 2015</sup>
+<sup>November 2014 - March 2015</sup>
 - Designed a website with consistent input from the client
 - Developed the site using HTML, CSS, and Javascript
 - Designed graphics according to the needs of the client
 
 **Kaseya Remote IT Management Solutions**, San Jose — *Software Developer and QA Intern*
-<sup>JUN 2010 - OCT 2013</sup>
+<sup>June 2010 - October 2013</sup>
 - Researched new technologies and their usefulness for the company
 - Wrote an endpoint for the support team to quickly pinpoint issues on customer machines 
 - Claimed, managed, and fixed support tickets
 - Utilized functional and penetration testing to test both pre-release and active products
+
+**Presidia Inc**, Los Gatos — *Development Intern*
+<sup>June 2009 - October 2009</sup>
+- Designed and implemented an iPhone appllication to calculate profit margins based on product yields
 
 ### References
 
