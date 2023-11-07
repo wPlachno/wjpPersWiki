@@ -11,9 +11,9 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading
 
 ```
-# H1
-## H2
-### H3
+	# H1
+	## H2
+	### H3
 ```
 
 # H1
@@ -23,7 +23,7 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Bold
 
 ```
-**bold text**
+	**bold text**
 ```
 
 **bold text**
@@ -31,14 +31,15 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Italic
 
 ```
-*italicized text*
+	*italicized text*
 ```
 
 *italicized text*
 
 ### Blockquote
+
 ```
-> blockquote
+	> blockquote
 ```
 
 > blockquote
@@ -46,10 +47,10 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Ordered List
 
 ```
-1. First item
-2. Second item
-	a. Sub-item (Note that indentation is just four spaces)
-3. Third item
+	1. First item
+	2. Second item
+		a. Sub-item (Note that indentation is just four spaces)
+	3. Third item
 ```
 
 1. First item
@@ -60,10 +61,10 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Unordered List
 
 ```
-- First item
-- Second item
-	a. Sub-item (Note that indentation is just four spaces)
-- Third item
+	- First item
+	- Second item
+		a. Sub-item (Note that indentation is just four spaces)
+	- Third item
 ```
 
 - First item
@@ -73,7 +74,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Code
 ```
-`code` or \`\`\`code\`\`\`
+	`code` or \`\`\`code\`\`\`
 ```
 
 `code`
@@ -83,7 +84,7 @@ or
 ### Horizontal Rule
 
 ```
----
+	---
 ```
 
 ---
@@ -91,7 +92,7 @@ or
 ### Link
 
 ```
-[Markdown Guide](https://www.markdownguide.org)
+	[Markdown Guide](https://www.markdownguide.org)
 ```
 
 [Markdown Guide](https://www.markdownguide.org)
@@ -99,7 +100,7 @@ or
 ### Image
 
 ```
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+	![alt text](https://www.markdownguide.org/assets/images/tux.png)
 ```
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
@@ -111,10 +112,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ### Table
 
 ```
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+	| Syntax | Description |
+	| ----------- | ----------- |
+	| Header | Title |
+	| Paragraph | Text |
 ```
 
 | Syntax | Description |
@@ -125,13 +126,13 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ### Fenced Code Block
 
 ```
-\`\`\`
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-\`\`\`
+	\`\`\`
+	{
+		"firstName": "John",
+		"lastName": "Smith",
+		"age": 25
+	}
+	\`\`\`
 ```
 
 ```
