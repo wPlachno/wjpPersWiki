@@ -14,42 +14,33 @@ These are the elements outlined in John Gruber’s original design document. All
 	## H2
 	### H3
 
-
 # H1
 ## H2
 ### H3
 
 ### Bold
 
-
 	**bold text**
-
 
 **bold text**
 
 ### Italic
 
-
 	*italicized text*
-
 
 *italicized text*
 
 ### Blockquote
 
-
 	> blockquote
-
 
 > blockquote
 
 ### Ordered List
 
-
 	1. First item
 	2. Second item
 	3. Third item
-
 
 1. First item
 2. Second item
@@ -57,11 +48,9 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Unordered List
 
-
 	- First item
 	- Second item
 	- Third item
-
 
 - First item
 - Second item
@@ -71,30 +60,29 @@ These are the elements outlined in John Gruber’s original design document. All
 
 	`code` 
 
-
 `code`
+
+### Inline Code
+
+	We want `code` between this.
+
+We want `code` between this.
 
 ### Horizontal Rule
 
-
 	---
-
 
 ---
 
 ### Link
 
-
 	[Markdown Guide](https://www.markdownguide.org)
-
 
 [Markdown Guide](https://www.markdownguide.org)
 
 ### Image
 
-
 	![alt text](https://www.markdownguide.org/assets/images/tux.png)
-
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
@@ -104,12 +92,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Table
 
-
 	| Syntax | Description |
 	| ----------- | ----------- |
 	| Header | Title |
 	| Paragraph | Text |
-
 
 | Syntax | Description |
 | ----------- | ----------- |
@@ -117,7 +103,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | Paragraph | Text |
 
 ### Fenced Code Block
-
 
 	```
 	{
@@ -127,7 +112,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 	}
 	```
 
-
 ```
 {
   "firstName": "John",
@@ -136,85 +120,76 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 }
 ```
 
-### Footnote
-
+### Footnote - NOT SUPPORTED IN MDWIKI
 
 	Here's a sentence with a footnote. [^1]
 
 	[^1]: This is the footnote.
 
-
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-### Heading ID
-
+### Heading ID - NOT SUPPORTED IN MDWIKI
 
 	### My Great Heading {#custom-id}
 
-
 ### My Great Heading {#custom-id}
 
-### Definition List
-
+### Definition List - NOT SUPPORTED IN MDWIKI
 
 	term
 	: definition
-
 
 term
 : definition
 
 ### Strikethrough
 
-
 	~~The world is flat.~~
-
 
 ~~The world is flat.~~
 
-### Task List
-
+### Task List - NOT SUPPORTED IN MDWIKI
 
 	- [x] Write the press release
 	- [ ] Update the website
 	- [ ] Contact the media
 
-
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
-### Emoji
-
+### Emoji - NOT SUPPORTED IN MDWIKI
 
 	That is so funny! :joy:
-
 
 That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
-### Highlight
-
+### Highlight - NOT SUPPORTED IN MDWIKI
 
 	I need to highlight these ==very important words==.
 
-
 I need to highlight these ==very important words==.
 
-### Subscript
-
+### Subscript - NOT SUPPORTED IN MDWIKI
 
 	H~2~O
 
-
 H~2~O
 
-### Superscript
-
+### Superscript - NOT SUPPORTED IN MDWIKI
 
 	X^2^
 
 X^2^
+
+### Mini Text
+
+```
+<sup>Mini Text</sup>
+```
+
+<sup>Mini Text</sup>
