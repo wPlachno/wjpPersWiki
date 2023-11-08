@@ -24,13 +24,17 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 ### Programming 
 
+Its always good to [have some idea](formattingcode.md) of how to structure code.
+
+#### Languages
+
 These articles are collections of knowledge on programming languages that I am currently focused on. You can see a [full list of languages I have any knowledge on here](programminglanguagelist.md).
 
 [Javascript](javacript.md), [HTML](html.md), and [CSS](css.md) 
 
 [Python](python.md)
 
-### Wikis
+#### Wikis
 
 These are all the articles regarding wikis, be they about specific implementations, such as [OtterWiki](otterwiki.md), or even about interesting plugins like [MarkMap](markmap.md).
 
@@ -44,7 +48,7 @@ These are all the articles regarding wikis, be they about specific implementatio
 ##### Operating Systems
 --->
 
-### Computer Science
+#### Computer Science
 
 These articles center around the academics of Computer Science, the higher level topics.
 
@@ -52,7 +56,7 @@ These articles center around the academics of Computer Science, the higher level
 
 [Network Programming](networkprogramming.md) - Just a link to Beej's Network Programming guide.
 
-### Homelab
+#### Homelab
 
 These articles concern the electronics projects I have at home. 
 
