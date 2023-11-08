@@ -26,7 +26,7 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 These articles are collections of knowledge on programming languages that I am currently focused on. You can see a [full list of languages I have any knowledge on here](programminglanguagelist.md).
 
-[Javascript](javacript.md)
+[Javascript](javacript.md), [HTML](html.md), and [CSS](css.md) 
 
 [Python](python.md)
 
