@@ -37,3 +37,31 @@ While everyone has their own needs for using a personal wiki, there are some com
 - **Recipe Collection**: A set of articles used to store recipes, usually culinary recipes, which typically consist of a list of ingredients and a set of steps, but may also include a rating system, different sets of modifications, or a list of dates the recipe was used.
 
 - **Walkthroughs**: A set of steps to accomplish a task. 
+
+## Random Thoughts
+
+### Link Shortcuts in Editor
+
+A wiki editor should allow for saving the file right away, as well as having a markdown mode and a RTF mode. If using markdown, a cool feature would be to select some text and automatically convert it into a link, either using the web link in the clipboard ("Link From Clipboard"), or converting the text to [kebab-case](formattingcode.md) and instantiating an empty link ("Link to Markdown"). 
+
+### Visualization Tool
+
+As wikis fill with content, there are two cases that can be easy to miss or forget:
+
+1. A link in markdown which does not resolve, usually because you knew it was something you wanted to have its own page, but either hadnt written it yet, or meant to double-check the correct spelling.
+2. An article that has been written, but whose reference was never made or was deleted.
+
+Both cases can be tracked with scripting pretty easily, so the question becomes "how should this be displayed?". We can easily just make a list of each case with a link on each list item to fix the problem, or we could have a visualization tool.
+
+A visualization tool could be created to map the wiki in 3D space. [This has already been done](https://www.wikiverse.io/) for Wikipedia, with clustering of articles. This solution is cool, but much more of a hassle than necessary. 
+
+#### Search Algorithm
+
+If our wiki is structured with an index.md file, with links to articles with more links, then it can be described as a directed graph. 
+
+First, we would need a tree. Each node of the tree represents an article and consists of the article name, and a list of nodes that it connects to, preferably  not alphabetical, but in order of contact. Ordering them this way means more important links, usually situated earlier in an article, could be expanded first.
+
+Since cyclic links do exist, we need extra setup to disallow repeat nodes. We could use a String:Integer dictionary where the String is the name of the article, and the integer is whether the node has been expanded. If retrieval returns null, than the article has not yet been added to the tree. 
+
+We also want a pointer to the current working node.
+
