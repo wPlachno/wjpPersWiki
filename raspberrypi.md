@@ -47,3 +47,6 @@ To find the IP address of the Pi, you will want to run
 
 Once VNC is enabled and you have the Pi IP Address, you can use a [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on a different computer. Note that you will be asked for a username and password, which should have been changed, but by default is username pi and password raspberry.
 
+### Other
+
+Check out [this beginner's guide to Raspberry Pi](https://www.embeddedrelated.com/showarticle/1332.php)!
