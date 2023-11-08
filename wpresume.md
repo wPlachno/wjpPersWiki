@@ -1,6 +1,6 @@
 # William Plachno
 
-## Software Engineer, Developer, and Team Member
+<sup>Software Engineer, Developer, and Team Member</sup>
 
 ### Contact Info
 
@@ -35,10 +35,19 @@ De Anza College
 **Illusive Comics & Games**, Los Gatos — *Customer Service Representative and Games Ordering Manager*
 <sup>November 2019 - Present</sup>
 - Managed a team and improved group cohesion, leading to a 220% increase in revenue despite the Covid epidemic.
+- Used [Lightspeed Retail Point-Of-Sale](https://www.lightspeedhq.com/pos/watch-a-demo-f/), including customer management, inventory management, eCommerce, and reporting.
+- Used **Google Drive**, including writing equations in **Google Sheets**, and generating a relaxed knowledge base with **Google Docs**, and doing some minor things with **Google Forms**.
+- Used **PicMonkey** for generating promotional material for **Instagram**, **Facebook**, and **Discord**.
+- Used **Homebase** for time-keeping.
+- Used **EventLink** and **Melee** for running events.
+- Used **TCGPlayer** for tracking, pricing, and selling collectables. 
+- Used **Booqable** for tracking rental inventory.
+- Used **Booxi** for booking table rentals.
 
 **Great Bear Coffee**, Los Gatos — *Barista and Manager*
 <sup>June 2015 - September 2019</sup>
 - Managed and shaped a team through hiring, teaching, scheduling, ordering, and general support.
+- Used 
 
 **lovetessajoy.com**, Los Gatos — *Web Development Assistant*
 <sup>November 2016 - February 2017</sup>
