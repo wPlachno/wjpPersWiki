@@ -53,7 +53,7 @@ As wikis fill with content, there are two cases that can be easy to miss or forg
 
 Both cases can be tracked with scripting pretty easily, so the question becomes "how should this be displayed?". We can easily just make a list of each case with a link on each list item to fix the problem, or we could have a visualization tool.
 
-A visualization tool could be created to map the wiki in 3D space. [This has already been done](https://www.wikiverse.io/) for Wikipedia, with clustering of articles. This solution is cool, but much more of a hassle than necessary. 
+A visualization tool could be created to map the wiki in 3D space. [This has already been done](https://www.wikiverse.io/) for Wikipedia, with clustering of articles. This solution is cool, but much more of a hassle than necessary. There is also [this solution](https://wikioverdata.toolforge.org/wikitree/public/?q=Q1124&level=6&type=descendants&type_label=descendants&orientation=North&lang=en) which attempts to find a family tree by datamining Wikipedia.
 
 #### Search Algorithm
 
@@ -64,4 +64,3 @@ First, we would need a tree. Each node of the tree represents an article and con
 Since cyclic links do exist, we need extra setup to disallow repeat nodes. We could use a String:Integer dictionary where the String is the name of the article, and the integer is whether the node has been expanded. If retrieval returns null, than the article has not yet been added to the tree. 
 
 We also want a pointer to the current working node.
-
