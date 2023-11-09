@@ -16,10 +16,12 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 | [The Wiki Project](project_wiki.md) | N/A | Design and Planning |
 | [1000 Year Old Vampire](project-1000-years.md) | Javascript, Django | Hiatus |
 | [Home Server](project-home-server.md) | Django, Python | Hiatus |
-o
+
 <!---
 ### Family Profiles
 --->
+
+---
 
 ## Knowledge
 
@@ -68,6 +70,8 @@ These articles center around the academics of Computer Science, the higher level
 These articles concern the electronics projects I have at home. 
 
 [Raspberry Pi](raspberrypi.md) - A small computer to be used for server projects.
+
+---
 
 ## Journalling
 
