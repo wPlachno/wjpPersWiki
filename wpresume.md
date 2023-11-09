@@ -47,7 +47,7 @@ De Anza College
 **Great Bear Coffee**, Los Gatos — *Barista and Manager*
 <sup>June 2015 - September 2019</sup>
 - Managed and shaped a team through hiring, teaching, scheduling, ordering, and general support.
-- Used 
+- Most things were done by hand
 
 **lovetessajoy.com**, Los Gatos — *Web Development Assistant*
 <sup>November 2016 - February 2017</sup>
@@ -57,8 +57,8 @@ De Anza College
 **elqc.com**, Los Gatos — *Web Developer*
 <sup>November 2014 - March 2015</sup>
 - Designed a website with consistent input from the client
-- Developed the site using HTML, CSS, and Javascript
 - Designed graphics according to the needs of the client
+- Used a single-page architecture with **HTML**, **CSS**, and **Javascript**
 
 **Kaseya Remote IT Management Solutions**, San Jose — *Software Developer and QA Intern*
 <sup>June 2010 - October 2013</sup>
@@ -66,10 +66,31 @@ De Anza College
 - Wrote an endpoint for the support team to quickly pinpoint issues on customer machines 
 - Claimed, managed, and fixed support tickets
 - Utilized functional and penetration testing to test both pre-release and active products
+- Used **C#**, **MSSQL**, **Javascript**, **CSS**, **Subversion**, and **Ruby**
 
 **Presidia Inc**, Los Gatos — *Development Intern*
 <sup>June 2009 - October 2009</sup>
-- Designed and implemented an iPhone appllication to calculate profit margins based on product yields
+- Designed and implemented an iPhone application to calculate profit margins based on product yields
+- Used **Objective-C**
+
+### Projects
+
+Note: This is just a sample. There are many more projects here and there that I no longer have access to because of code being on old computers.	
+
+**Tock Server** - School, Complete
+<sup>August 2022 - December 2022</sup>
+- Used **ExpressJS**, **Postgres**, **Sequelize**, **Javascript**, **Handlebars**, **HTML**, **CSS**
+A Django web server, with authorization and SQL, to manage a game called [Tock](https://www.amazon.com/RUSTIK-BJR000129-Tock-Players-Multicolor/dp/B003D9A2T4).
+
+**1000 Year Old Vampire** - Personal, Incomplete
+<sup>September 2022 - August 2023</sup>
+- Used **Javascript**, **Python**, **Django**
+A Django-based web server to administer the game 1000 Year Old Vampire, a single-player, journal-based tabletop roleplaying game.
+
+**Home Server** - Personal, Incomplete
+<sup>August 2022 - September 2022</sup>
+- Used **Python**, **Django**, **HTML**, **CSS**, **Handlebars**
+A Django-based content management system.
 
 ### References
 
