@@ -10,6 +10,13 @@ Articles about people. Currently, the only personnel article is [the author's re
 
 Articles about ongoing or past projects, usually personal. Come read about [the wiki project](project_wiki.md).
 
+| Title | Languages | Status |
+| --- | --- | --- |
+| [Article Examination](project-article-exam.md) | Python | Design and Planning |
+| [The Wiki Project](project_wiki.md) | N/A | Design and Planning |
+| [1000 Year Old Vampire](project-1000-years.md) | Javascript, Django | Hiatus |
+| [Home Server](project-home-server.md) | Django, Python | Hiatus |
+o
 <!---
 ### Family Profiles
 --->
