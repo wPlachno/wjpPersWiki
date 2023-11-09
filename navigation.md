@@ -1,4 +1,4 @@
-[gimmick:theme](slate)
+[gimmick:theme](yeti)
 	
 # Woodchipper
 
