@@ -40,129 +40,120 @@ Expected output:
 Hello Gerald!
 ```
 
-### 4. Check that the argument is a markdown file
+### 4. Check that the argument is a directory
 
 Attention: This milestone has not yet been reached.
 
-Write a function checkMarkdown which takes a filename and outputs true if it ends in .md, and false if not. 
+Write a function `checkDirectory` which takes the argument and returns true if it is a url to a directory
 
 Expected output:
 ```
 > aep what-goes-up-must.md
 ...
-what-goes-up-must.md looks like a markdown file!
+what-goes-up-must.md is not a directory!
 ```
 ```
-> aep what-goes-up-must.txt
+> aep what-goes-up-must/markdown/
 ...
-Hello what-goes-up-must.txt!
+what-goes-up-must/markdown/ is a directory
 ```
 
-### 5. Open and print the file
+### 5. Get a list of the files in the directory
 
 Attention: This milestone has not yet been reached.
 
-Now that we can determine it is a markdown file, we need to be able to open it. Just print it.
+Write a function `exploreDirectory` which takes the argument and prints all files in the directory.
 
-Expected output: 
-```
-> aep gibberish-file.md
-...
-gibberish-file.md does not exist.
-```
-```
-> aep project-article-exam.md
-...
-# Article Exam Project
+Expected output:
+All files printed when given a directory as an argument.
 
-The goal of this project is to examine a MDWiki directory and make two lists:
-1. Existing \*.md files which are not currently part of the main structure and do not have a link pointing to them.
-2. Links inside the markdown... (Rest of file still printed)
-```
-
-### 6. Print all links
+### 6. Write a function to check if a filename points to a markdown file
 
 Attention: This milestone has not yet been reached.
 
-Write a function getLinks to parse the file and get a list of all the file's links. As a challenge to myself, I would like to do this with a Regular Expression. 
+Write a function `isMarkdown` which takes a filename and returns true if it ends in .md. 
 
-Expected output: 
-```
-> aep project-article-exam.md
-...
-No links exist in project-article-exam.md
-```
-```
-> aep formatting-code.md
-...
-Found 1 link(s):
-1. https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/
-```
-```
-> aep tailwind-css.md
-...
-Found 7 link(s):
-1. https://webartisan.info/the-pros-and-cons-of-tailwindcss
-2. https://tailwindcss.com/docs/hover-focus-and-other-states
-3. https://tailwindcss.com/docs/installation/framework-guides
-4. https://tailwindcss.com/docs/installation
-5. https://tailwindcss.com/docs/installation/play-cdn
-6. alpinejs.md
-7. https://tailwindcss.com/docs/theme
-```
+Expected output:
+All filenames printed when given a directory, each followed by a true/false of whether it is a markdown file.
 
-### 7. Print only .md links
+### 7. Filter the directory list 
 
 Attention: This milestone has not yet been reached.
 
-Filter the list using the same function from Milestone 4.
+Write a function `exploreDirectory` which takes the argument and prints all files in the directory, as well as their `last_modified` date.
 
-Expected output: 
-```
-> aep project-article-exam.md
-...
-No links exist in project-article-exam.md
-```
-```
-> aep formatting-code.md
-...
-No links exist in formatting-code.md
-```
-```
-> aep tailwind-css.md
-...
-Found 1 link(s):
-1. alpinejs.md
-```
+Expected output:
+Prints all markdown filenames in the directory.
 
-### 8. Make Tree Node class
+### 8. Print all markdown files.
 
 Attention: This milestone has not yet been reached.
 
-Make a Tree Node class which consists of a string `name`, a boolean `isExpanded`, a list `links`, and a list `nodes`. Write a function which, given a filename, creates a node, unexpanded, and finds all the markdown links. Write another function which prints the node. Instantiate one with the passed filename and print it.
+For each markdown file in the directory, open the file and print it to the console.
 
-Expected output: 
-```
-> aep project-article-exam.md
-...
-project-article-exam (Unexpanded): [], []
-```
-```
-> aep formatting-code.md
-...
-formatting-code (Unexpanded): [], []
-```
-> aep tailwind-css.md
-...
-tailwind-css (Unexpanded): [alpinejs.md], []
-```
+Expected output:
+Prints all markdown files in the directory.
 
-### 9. Make Article Ledger class
+### 9. Find all links in each file
 
 Attention: This milestone has not yet been reached.
 
-Make a class which handles a String:TreeNode dictionary, with instantiation, adding, and retrieval, as well as a list of Tree Nodes. Write a function which, given a Tree Node, adds it to the dictionary under its name. Create another function which takes a filename as an argument, calls the createTreeNode function, then the immediately previous function, and places the node into the list.
+Now that we can open the files, we need to write a parser that finds all text between `")["` and the next `"]"`. Use regular expressions.
 
-### 10. Write ArticleLedger.explore(fileNameArgument)
+Expected output:
+For each markdown file in the directory, it prints:
+```
+[FILE_NAME]:
+- [LINK1]
+- [LINK2]
+...
+- [LINKN]
+```
+
+### 10. Filter the link list 
 
 Attention: This milestone has not yet been reached.
+
+IF the link is a markdown file (use `isMarkdown`), add it to an array of links for that file.
+
+Expected output:
+For each markdown file in the directory, it prints:
+```
+[FILE_NAME]:
+- [LINKMD1]
+- [LINKMD2]
+...
+- [LINKMDN]
+```
+
+### 11. Define structure
+
+Attention: This milestone has not yet been reached.
+
+We need an object, `mdFile`, for each markdown file which holds the `filename`, cut down to just the filename, not any upper directories, as well as the `last_modified` date of the file. The objects should also hold a list of child markdown links (`childLinks`), as well as a list of parent markdown links (`parentLinks`), initialized to empty, which will be crucial in the next couple steps. There should be a getter that counts the number of parents, and another for children. The object should be printable according to our expected output, with a check for `last_modified == null`, either printing LM or "Does not exist". All of these objects should be contained in a dictionary where the key is the filename.
+
+Expected output:
+```
+!For each markdown file:
+[FILE_NAME] ([NUM_PARENTS], [LAST_MODIFIED]/DNE):
+- [LINKMD1]
+...
+- [LINKMDN]
+Total: [NUM_CHILDREN]
+
+```
+
+### 12. Make function for adding links
+
+Attention: This milestone has not yet been reached.
+
+Make a function `linkMDFile` which takes two filenames, `parentName` and `childName`, and checks the dictionary for the `childName`. If it finds an existing `mdFile`, add `parentName` to the `parentLinks`. If the file does not exist, create a new `mdFile` with the filename, `last_modified = null`, no child links, and `parentName` as the only entry in the `parentLinks`. Add this `mdFile` to the dictionary. 
+
+### 12. Apply links
+
+Attention: This milestone has not yet been reached.
+
+For each `mdFile` in the dictionary, loop through `childLinks` and pass each through `linkMDFile` with the `mdFile.fileName` as the `parentLink`.
+
+Expected output:
+Same as step 11, but with non-zero NUM_LINKS and extra files.
