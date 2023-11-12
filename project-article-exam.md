@@ -149,7 +149,7 @@ Attention: This milestone has not yet been reached.
 
 Make a function `linkMDFile` which takes two filenames, `parentName` and `childName`, and checks the dictionary for the `childName`. If it finds an existing `mdFile`, add `parentName` to the `parentLinks`. If the file does not exist, create a new `mdFile` with the filename, `last_modified = null`, no child links, and `parentName` as the only entry in the `parentLinks`. Add this `mdFile` to the dictionary. 
 
-### 12. Apply links
+### 13. Apply links
 
 Attention: This milestone has not yet been reached.
 
@@ -157,3 +157,7 @@ For each `mdFile` in the dictionary, loop through `childLinks` and pass each thr
 
 Expected output:
 Same as step 11, but with non-zero NUM_LINKS and extra files.
+
+### 14. Make and format output file
+
+Attention: This milestone has not yet been reached
