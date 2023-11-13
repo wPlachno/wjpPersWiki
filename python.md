@@ -6,6 +6,10 @@ In Python, you need to import libraries you need. You do so by sticking a line n
 
 **sys**: You can use sys.argv[] to check command line arguments.
 
+**Variable Declaration**:
+``` Python
+
+```
 **Print to User**: `print ("Text")`
 **Input from User**: `input ("Please enter text: ")`
 **Comments**: ` # Comment `
@@ -35,6 +39,20 @@ else:
 	# Immediately after loop
 ```
 For more information on the more basic pieces of the Python language, [click here](https://python.swaroopch.com/basics.html).
+
+## Finding the filepath
+According to [Stack Overflow](https://stackoverflow.com/questions/3430372/how-do-i-get-the-full-path-of-the-current-files-directory), `__file__` is the filepath of the current running Python script. 
+
+For the directory of the script being run:
+```
+import pathlib
+pathlib.Path(__file__).parent.resolve()
+```
+For the current working directory:
+```
+import pathlib
+pathlib.Path().resolve()
+```
 
 ## Popular IDEs
 
