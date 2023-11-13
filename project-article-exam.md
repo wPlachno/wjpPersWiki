@@ -10,13 +10,15 @@ I have chosen to complete this project in Python as it is a language which I wou
 
 ### 1. Prepare development environment
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/12/23
 
 It has been a while since I touched Python, so I'll need to reconfigure my environment.
 
+Due to recommendations from family that are more familiar with Python, I chose to try out PyCharm. Installation was quick and the layout is excellently designed. 
+
 ### 2. Write "Hello World"
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/12/23
 
 Once the environment is up, the next step is to do a sanity check: make sure you can run a python file.
 
@@ -29,7 +31,7 @@ Hello World!
 
 ### 3. Add 1 command line argument
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/13/23
 
 Every language does this different. While I am sure I have done this before, I have no memory of how it was done.
 
