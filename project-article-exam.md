@@ -44,7 +44,7 @@ Hello Gerald!
 
 ### 4. Check that the argument is a directory
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/13/23
 
 Write a function `checkDirectory` which takes the argument and returns true if it is a url to a directory
 
@@ -62,7 +62,7 @@ what-goes-up-must/markdown/ is a directory
 
 ### 5. Get a list of the files in the directory
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/13/23
 
 Write a function `exploreDirectory` which takes the argument and prints all files in the directory.
 
@@ -71,7 +71,7 @@ All files printed when given a directory as an argument.
 
 ### 6. Write a function to check if a filename points to a markdown file
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/14/23
 
 Write a function `isMarkdown` which takes a filename and returns true if it ends in .md. 
 
@@ -80,7 +80,7 @@ All filenames printed when given a directory, each followed by a true/false of w
 
 ### 7. Filter the directory list 
 
-Attention: This milestone has not yet been reached.
+Note: this milestone was reached on 11/14/23
 
 Write a function `exploreDirectory` which takes the argument and prints all files in the directory, as well as their `last_modified` date.
 
