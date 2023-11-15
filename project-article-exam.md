@@ -80,7 +80,7 @@ All filenames printed when given a directory, each followed by a true/false of w
 
 ### 7. Filter the directory list 
 
-Note: this milestone was reached on 11/14/23
+Note: This milestone was reached on 11/14/23
 
 Write a function `exploreDirectory` which takes the argument and prints all files in the directory, as well as their `last_modified` date.
 
@@ -89,14 +89,31 @@ Prints all markdown filenames in the directory.
 
 ### 8. Print all markdown files.
 
-Attention: This milestone has not yet been reached.
+Note: This milestone was reached on 11/14/23
 
 For each markdown file in the directory, open the file and print it to the console.
 
 Expected output:
 Prints all markdown files in the directory.
 
-### 9. Find all links in each file
+### 9. Define structure
+
+Attention: This milestone has not yet been reached.
+
+We need an object, `mdFile`, for each markdown file which holds the `filename`, cut down to just the filename, not any upper directories, as well as the `last_modified` date of the file. The objects should also hold a list of child markdown links (`childLinks`), as well as a list of parent markdown links (`parentLinks`), initialized to empty, which will be crucial in the next couple steps. There should be a getter that counts the number of parents, and another for children. The object should be printable according to our expected output, with a check for `last_modified == null`, either printing LM or "Does not exist". All of these objects should be contained in a dictionary where the key is the filename.
+
+Expected output:
+```
+!For each markdown file:
+[FILE_NAME] ([NUM_PARENTS], [LAST_MODIFIED]/DNE):
+- [LINKMD1]
+...
+- [LINKMDN]
+Total: [NUM_CHILDREN]
+
+```
+
+### 10. Find all links in each file
 
 Attention: This milestone has not yet been reached.
 
@@ -112,7 +129,7 @@ For each markdown file in the directory, it prints:
 - [LINKN]
 ```
 
-### 10. Filter the link list 
+### 11. Filter the link list 
 
 Attention: This milestone has not yet been reached.
 
@@ -126,23 +143,6 @@ For each markdown file in the directory, it prints:
 - [LINKMD2]
 ...
 - [LINKMDN]
-```
-
-### 11. Define structure
-
-Attention: This milestone has not yet been reached.
-
-We need an object, `mdFile`, for each markdown file which holds the `filename`, cut down to just the filename, not any upper directories, as well as the `last_modified` date of the file. The objects should also hold a list of child markdown links (`childLinks`), as well as a list of parent markdown links (`parentLinks`), initialized to empty, which will be crucial in the next couple steps. There should be a getter that counts the number of parents, and another for children. The object should be printable according to our expected output, with a check for `last_modified == null`, either printing LM or "Does not exist". All of these objects should be contained in a dictionary where the key is the filename.
-
-Expected output:
-```
-!For each markdown file:
-[FILE_NAME] ([NUM_PARENTS], [LAST_MODIFIED]/DNE):
-- [LINKMD1]
-...
-- [LINKMDN]
-Total: [NUM_CHILDREN]
-
 ```
 
 ### 12. Make function for adding links
