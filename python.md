@@ -54,6 +54,26 @@ import pathlib
 pathlib.Path().resolve()
 ```
 
+## Serialization
+
+Python has a built in library, called Pickle, for serialization of classes. 
+
+``` Python
+import pickle
+...
+Serialization:
+...
+	with open(control_path, "wb") as control_file:
+		pickle.dump(self, control_file)
+...
+Deserialization:
+...
+	with open(control_path, "rb") as control_file:
+		new_article_examiner = pickle.load(control_file)
+	return new_article_examiner
+```
+Note that pickle will not work if you do not include the 'b' in the access rights. 
+
 ## Popular IDEs
 
 PyCharm
