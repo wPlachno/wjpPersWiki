@@ -200,31 +200,31 @@ Add log functionality to ArticleExaminer so we can track the addition and remova
 
 ### 18. Support command line flag architectury and the VERBOSE flag
 
-Note: This milestone was reached on 11/19/23
+Note: This milestone was reached on 11/18/23
 
 We can loop on all arguments, check for flags, and append directories. Make it easy to add a flag. The first should be VERBOSE, which should print any log entries that occur during the running of the script.
 
 ### 19. Implement DEBUG flag
 
-Attention: This milestone needs to be tested
+Note: This milestone was reached on 11/19/23
 
 The DEBUG flag, on top of showing all debug messages, will also print a text-readable version of each of the articles.
 
 ### 20. Implement HISTORY flag
 
-Attention: This milestone has not yet been reached
+Note: This milestone was reached on 11/19/23
 
 Triggering the history flag will print the entirety of the logs to the screen before running the rest of the script. If HISTORY is the only flag, the logs will be printed and the rest of the script will not run.
 
 ### 21. Implement ALLLINKS flag
 
-Attention: this milestone has not yet been reached
+Note: This milestone was reached on 11/19/23
 
 ALLLINKS inserts a printing of all markdown links in each article just before the Floating and Missing list.
 
 ### 22. Implement NOCACHE flag
 
-Attention: this milestone has not yet been reached
+Note: This milestone was reached on 11/19/23
 
 NOCACHE means that, if an aep-control.pickle file exists, it will not be opened, and, if the file does not exist, it will not be created.
 
