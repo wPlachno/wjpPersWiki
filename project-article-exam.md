@@ -14,8 +14,7 @@ The python file currently will either use the working directory or a directory p
 
 ### Future Tasks
 
-1. Output to a file instead of the command line
-2. Make the whole process track the last_modified dates of files.
+1. Need to delete links
 
 ##  Milestones
 
@@ -177,8 +176,60 @@ Same as step 11, but with non-zero NUM_LINKS and extra files.
 
 ### 14. Make and format output file
 
-Attention: This milestone has not yet been reached
+Note: This milestone was reached on 11/17/23
+
+We can use Python's pickle library to serialize the ArticleExaminer after checking links. We can then deserialize the file after getting the directory path.
 
 ### 15. Use last_modified to reduce workload
 
+Note: This milestone was reached on 11/18/23
+
+By instantiating articles with a last_modified of 0, then checking if the last_modified on the file is larger (ie more seconds between modification and linux epoch), we can check only the files that have changes.
+
+### 16. Check for removal of links
+
+Note: This milestone was reached on 11/18/23
+
+Now that we are only updating with changes, we need to reformat so that we can remove articles related to files that dont exist anymore.
+
+### 17. Log large changes
+
+Note: This milestone was reached on 11/18/23
+
+Add log functionality to ArticleExaminer so we can track the addition and removal of both links and articles.
+
+### 18. Support command line flag architectury and the VERBOSE flag
+
+Note: This milestone was reached on 11/19/23
+
+We can loop on all arguments, check for flags, and append directories. Make it easy to add a flag. The first should be VERBOSE, which should print any log entries that occur during the running of the script.
+
+### 19. Implement DEBUG flag
+
+Attention: This milestone needs to be tested
+
+The DEBUG flag, on top of showing all debug messages, will also print a text-readable version of each of the articles.
+
+### 20. Implement HISTORY flag
+
 Attention: This milestone has not yet been reached
+
+Triggering the history flag will print the entirety of the logs to the screen before running the rest of the script. If HISTORY is the only flag, the logs will be printed and the rest of the script will not run.
+
+### 21. Implement ALLLINKS flag
+
+Attention: this milestone has not yet been reached
+
+ALLLINKS inserts a printing of all markdown links in each article just before the Floating and Missing list.
+
+### 22. Implement NOCACHE flag
+
+Attention: this milestone has not yet been reached
+
+NOCACHE means that, if an aep-control.pickle file exists, it will not be opened, and, if the file does not exist, it will not be created.
+
+### 23. Implement NONMD flag
+
+Attention: This milestone has not yet been reached
+
+When we print changes, we include added or removed links that point to images or URLs and other non-articles. If the ALLLINKS is also included, all links, including non-article links, will be printed. 
