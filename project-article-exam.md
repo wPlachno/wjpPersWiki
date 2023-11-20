@@ -230,6 +230,18 @@ NOCACHE means that, if an aep-control.pickle file exists, it will not be opened,
 
 ### 23. Implement NONMD flag
 
-Attention: This milestone has not yet been reached
+Note: This milestone was reached on 11/19/23
 
 When we print changes, we include added or removed links that point to images or URLs and other non-articles. If the ALLLINKS is also included, all links, including non-article links, will be printed. 
+
+### 24. Make all prints alphabetical
+
+Note: This milestone was reached on 11/19/23
+
+When we print, it should be standard to print our lists alphabetically, whether by the article name, or by the link.
+
+### 25. Add unit testing
+
+Attention: This milestone has not yet been reached.
+
+Yes, I know - this should have been milestone 2 or 3, but better late than never.
