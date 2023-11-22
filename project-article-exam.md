@@ -12,9 +12,14 @@ You can find [this project on GitHub](https://github.com/wPlachno/wp-article-exa
 
 The python file currently will either use the working directory or a directory passed in on the command line, find all the links in the markdown files, and output a list of "Floating Articles", or articles that do not have a link that points to them, followed by a list of "Missing Articles", or markdown files that should be made to match all existing links in other files. These lists are currently only being printed to the console.
 
+## Setup
+
+This script was written with Python 3.10.f in mind, so earlier versions have undefined reactions. 
+
 ### Future Tasks
 
-1. Need to delete links
+1. Excise classes to their own files.
+2. Use PyTest for unit testing.
 
 ##  Milestones
 
