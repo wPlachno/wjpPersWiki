@@ -14,7 +14,44 @@ The python file currently will either use the working directory or a directory p
 
 ## Setup
 
-This script was written with Python 3.10.f in mind, so earlier versions have undefined reactions. 
+This script was written with Python 3.10.5 in mind, so earlier versions have undefined reactions. Nonetheless, as long as you have that Python or later, the script should run. If you have an earlier version, go ahead and try it out. If you do, send me a message on github and I'll add it. 
+
+## Usage
+
+1. `py article-examination.py`
+    If you run the script with no arguments, it will output the lists 
+of floating articles and missing articles in the current working 
+directory to the terminal. It will also create `aep-control.pickle`, the 
+data file that represents the scripts cache.
+
+2. `py article-examination.py wikis/wiki1 VERBOSE`
+    This has 2 arguments - `wikis/wiki1`, a directory to run in, and 
+`VERBOSE`, the first of our 4 command line flags.
+    `VERBOSE` triggers the script to print any log messages to the 
+console as they are triggered. This is different from the `HISTORY` flag, 
+which does not run the main functionality of the script, and instead 
+simply prints the entire log history to the terminal.
+
+3. `py article-examination.py ALLLINKS wikis/wiki1 NOCACHE wikis/wiki2 NONMD DEBUG`
+    This final example illustrates three things: that there is no 
+required order between directories and flags, that you can have multiple 
+directories and multiple files, and also shows the final supported flags. 
+Please note that most flags can be combined except for `HISTORY`, which is 
+designed to be called simply to check the log, not trigger the rest of 
+the `ArticleExaminer` logic.
+    `ALLLINKS` means to print a list of each of the links between articles, 
+`NOCACHE` means to skip reading or writing `aep-control.pickle`, `NONMD` 
+means to include non-article links, and `DEBUG` means to print all the 
+debug messages and follow the script's main print with a print of 
+all the `article` objects.
+    What you should experience with this combination of arguments is 
+that the script will first work on `wiki1`, printing out debug messages 
+while checking the links, then printing out a list of each `article` 
+and all of their links, including links to web urls and images, then 
+printing the Floating Articles, then the Missing Articles, which will 
+culminate in the final print of each of the `Article` objects. It will do 
+all of this without opening or writing an `aep-control.pickle` file. 
+    It will then repeat exactly that for `wiki2`. 
 
 ### Future Tasks
 
@@ -249,4 +286,4 @@ When we print, it should be standard to print our lists alphabetically, whether 
 
 Attention: This milestone has not yet been reached.
 
-Yes, I know - this should have been milestone 2 or 3, but better late than never.
+Yes, I know - this should have been milestone 2 or 3, but better late than never. As I will be using Pytest, this may end up taking longer. 
