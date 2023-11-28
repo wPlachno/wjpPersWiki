@@ -2,6 +2,10 @@
 
 Originally just used for simple scripting on html pages, Javascript has grown in usability and has been ported over to be used as a backend instead of just frontend.
 
+## Web Solutions
+
+If you need a quick static site generator, I suggest [11ty](11ty.md). 
+
 ## Interesting Links
 
 [GraphViz](https://www.graphviz.org/) is a graphing solution I originally found in [HaydenLeBaron's Wiki Visualizer](https://github.com/HaydenLeBaron/mdwiki-cartographer). It seems to be more portable than I originally thought. I want to get more comfortable using this. 
