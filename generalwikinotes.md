@@ -1,6 +1,6 @@
 # General Wiki Ideas
 
-Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for [my own Content Management System](project_wiki.md).
+Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for [my own Content Management System](project-wiki.md).
 
 ## Types of Articles
 
@@ -42,7 +42,7 @@ While everyone has their own needs for using a personal wiki, there are some com
 
 ### Link Shortcuts in Editor
 
-A wiki editor should allow for saving the file right away, as well as having a markdown mode and a RTF mode. If using markdown, a cool feature would be to select some text and automatically convert it into a link, either using the web link in the clipboard ("Link From Clipboard"), or converting the text to [kebab-case](formattingcode.md) and instantiating an empty link ("Link to Markdown"). 
+A wiki editor should allow for saving the file right away, as well as having a markdown mode and a RTF mode. If using markdown, a cool feature would be to select some text and automatically convert it into a link, either using the web link in the clipboard ("Link From Clipboard"), or converting the text to [kebab-case](formatting-code.md) and instantiating an empty link ("Link to Markdown"). 
 
 ### Visualization Tool
 

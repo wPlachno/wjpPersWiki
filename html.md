@@ -8,4 +8,4 @@ When developing HTML, please consider [accessibility](accessible-aria.md).
 
 If you see HTML attributes like `x-data`, `x-text`, or `x-model`, you may be looking at [Alpine JS](alpinejs.md).
 
-If the class attribute has a lot of classes, you are probably looking at some form of Atomic CSS, possibly [Bootstrap](bootstrap.md) or [Tailwind](tailwindcss.md).
+If the class attribute has a lot of classes, you are probably looking at some form of Atomic CSS, possibly [Bootstrap](bootstrap.md) or [Tailwind](tailwindcss.md). 

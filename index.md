@@ -33,7 +33,7 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 ### Programming 
 
-Its always good to [have some idea](formattingcode.md) of how to structure code.
+Its always good to [have some idea](formatting-code.md) of how to structure code.
 
 #### Languages
 
