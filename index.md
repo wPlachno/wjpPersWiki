@@ -8,12 +8,12 @@ Articles about people. Currently, the only personnel article is [the author's re
 
 ## Projects
 
-Articles about ongoing or past projects, usually personal. Come read about [the wiki project](project_wiki.md).
+Articles about ongoing or past projects, usually personal. Come read about [the wiki project](project-wiki.md).
 
 | Title | Languages | Status |
 | --- | --- | --- |
 | [Article Examination](project-article-exam.md) | Python | Design and Planning |
-| [The Wiki Project](project_wiki.md) | N/A | Design and Planning |
+| [The Wiki Project](project-wiki.md) | N/A | Design and Planning |
 | [1000 Year Old Vampire](project-1000-years.md) | Javascript, Django | Hiatus |
 | [Home Server](project-home-server.md) | Django, Python | Hiatus |
 
@@ -39,7 +39,7 @@ Its always good to [have some idea](formattingcode.md) of how to structure code.
 
 These articles are collections of knowledge on programming languages that I am currently focused on. You can see a [full list of languages I have any knowledge on here](programminglanguagelist.md).
 
-[Javascript](javacript.md), [HTML](html.md), and [CSS](css.md) 
+[Javascript](javascript.md), [HTML](html.md), and [CSS](css.md) 
 
 [Python](python.md)
 
@@ -61,7 +61,7 @@ These are all the articles regarding wikis, be they about specific implementatio
 
 These articles center around the academics of Computer Science, the higher level topics.
 
-[Algorithms and Design](algorithmanddesign.md) - Data structures, design patterns, and more.
+[Algorithms and Design](algorithm-and-design.md) - Data structures, design patterns, and more.
 
 [Network Programming](networkprogramming.md) - Just a link to Beej's Network Programming guide.
 
