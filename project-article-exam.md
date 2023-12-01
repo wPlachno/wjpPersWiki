@@ -293,3 +293,9 @@ Move code to separate files, specifically, reduce article-examination.py to just
 Attention: This milestone has not yet been reached.
 
 Yes, I know - this should have been milestone 2 or 3, but better late than never. As I will be using Pytest, this may end up taking longer. 
+
+### 27. Implement PRINTART Flag
+
+Attention: This milestone has not yet been reached. 
+
+With this, we should update how we store the links. We should set up a link class, with the text of the link, the full line of text from the file, and the index of the link - `[file_name]_[line_number]`. The PRINTART flag should require one or more filenames after it, update the links, then output a detailed list of those links for the corresponding articles. 
