@@ -282,7 +282,13 @@ Note: This milestone was reached on 11/19/23
 
 When we print, it should be standard to print our lists alphabetically, whether by the article name, or by the link.
 
-### 25. Add unit testing
+### 25. Refactor for more modules
+
+Note: This milestone was reached on 11/30/23
+
+Move code to separate files, specifically, reduce article-examination.py to just the ArticleExaminer class, Article to article.py, and the main workflow to aep.py. Also, create the wcutil module for useful global code.
+
+### 26. Add unit testing
 
 Attention: This milestone has not yet been reached.
 
