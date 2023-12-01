@@ -8,4 +8,4 @@ Initially, I was hoping to set up [OtterWiki](otterwiki.md) on my [Raspberry Pi]
 
 I then [attempted to try installing](wikijsinstallation.md) [Wiki JS](wikijs.md), but hit a similar issue.
 
-Eventually, I decided to put the Pi to the side and host [MDWiki](mdwiki.md) on Github Pages, where I was able to [really brainstorm](generalwikinotes.md) about what I needed.
+Eventually, I decided to put the Pi to the side and host [MDWiki](mdwiki.md) on Github Pages, where I was able to [really brainstorm](general-wiki-notes.md) about what I needed.
