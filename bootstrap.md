@@ -22,7 +22,7 @@ SCSS and Javascript are compiled into a library that must either be built into t
 </html>
 ```
 
-If, however, you want to decrease page load, you could [try looking at whether you need the javascript files](bootstrapjavascript.md).
+If, however, you want to decrease page load, you could [try looking at whether you need the javascript files](bootstrap-javascript.md).
 
 If you would prefer to use bootstrap as a module, you can follow [this guide](https://getbootstrap.com/docs/5.3/getting-started/javascript/#using-bootstrap-as-a-module).
 
