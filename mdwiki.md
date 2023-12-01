@@ -2,7 +2,7 @@
 
 MDWiki is a single file wiki solution that displays markdown files in the local directory. MDWiki does not have any editing capability, so the files must be created and modified using outside methods. This is a great solution for a publicly hosted knowledge base, but many may find the lack of editing capability a drawback.
 
-The general workflow recommended for using MDWiki is to set it up on [Github Pages](githubpages.md), using Github's built-in hosting to view your personal wiki, while also tracking all changes in the repository. You can then use stackedit.io to edit the markdown files, though I personally use Notepad++ with the NPPMarkdownPanel plugin.
+The general workflow recommended for using MDWiki is to set it up on [Github Pages](github-pages.md), using Github's built-in hosting to view your personal wiki, while also tracking all changes in the repository. You can then use stackedit.io to edit the markdown files, though I personally use Notepad++ with the NPPMarkdownPanel plugin.
 
 ## Setting up MDWiki
 
