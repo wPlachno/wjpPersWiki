@@ -2,7 +2,7 @@
 
 Hypertext Markup Language, or HTML, is one of the three core pieces of web pages. HTML defines what is on the page, CSS defines how things look, and Javascript is the logic of how they work.
 
-When developing HTML, please consider [accessibility](accessibleria.md).
+When developing HTML, please consider [accessibility](accessible-aria.md).
 
 ## HTML Edits by Libraries
 
