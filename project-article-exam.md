@@ -16,6 +16,8 @@ The python file currently will either use the working directory or a directory p
 
 This script was written with Python 3.10.5 in mind, so earlier versions have undefined reactions. Nonetheless, as long as you have that Python or later, the script should run. If you have an earlier version, go ahead and try it out. If you do, send me a message on github and I'll add it. 
 
+This script also includes tests written with pytest. To run these, you will need to install pytest on your machine, using: `pip install -U pytest`
+
 ## Usage
 
 1. `py article-examination.py`
