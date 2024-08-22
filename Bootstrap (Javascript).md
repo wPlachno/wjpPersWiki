@@ -2,7 +2,7 @@
 
 ## Save Some Memory
 
-Some Bootstrap solutions may choose to not include the [Popper](popperjs.md) or the Bootstrap Javascript, usually to decrease page load times. The CSS is still linked and includes most of the Bootstrap functionality, but according to [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/#js-components), removing the Javascript files will reduce functionality:
+Some Bootstrap solutions may choose to not include the [Popper](PopperJS.md) or the Bootstrap Javascript, usually to decrease page load times. The CSS is still linked and includes most of the Bootstrap functionality, but according to [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/#js-components), removing the Javascript files will reduce functionality:
 
 | Component | No PopperJS | No BootstrapJS |
 | --- | --- | --- |

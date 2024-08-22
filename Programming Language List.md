@@ -8,7 +8,7 @@ C++
 
 C#
 
-[Python](python.md)
+[Python](Python.md)
 
 Ruby
 
@@ -26,5 +26,5 @@ HTML
 
 CSS
 
-[Javascript](javascript.md)/Typescript
+[Javascript](Javascript.md)/Typescript
 

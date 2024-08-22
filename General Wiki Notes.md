@@ -1,6 +1,6 @@
 # General Wiki Ideas
 
-Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for [my own Content Management System](project-wiki.md).
+Please note that most of this article consists of my own theories and has not been peer-reviewed or even more than mildly scrutinized. These thoughts are more of a brainstorming session regarding my needs for [my own Content Management System](Wiki%20Project.md).
 
 ## Types of Articles
 
@@ -8,7 +8,7 @@ Many wikis are used for many different reasons. This wiki was started as a perso
 
 1. **Subject Article**: These articles are what you are used to thinking of as a wiki article, some subject, covered to some level of completion, with links to other subjects. These can be relatively freeform, with the data flow being in a form that is distinct to the topic.
 
-2. **Directory Article**: An article whose main purpose is to be a collection of links to another set of articles, as in [our home page](index.md). These links should also be arranged in a way that makes sense, and have a little bit more information that may include a quick summary, or the main points that make the article link worth being kept on the list.
+2. **Directory Article**: An article whose main purpose is to be a collection of links to another set of articles, as in [our home page](Index.md). These links should also be arranged in a way that makes sense, and have a little bit more information that may include a quick summary, or the main points that make the article link worth being kept on the list.
 
 3. **Journal Article**: While this type of article may revolve around a central subject or be mainly a list of links, the main *purpose* of the article is not related to the subject, but to the date it was written. These articles tend to be less important to make public, but should be searchable on request. 
  
@@ -42,7 +42,7 @@ While everyone has their own needs for using a personal wiki, there are some com
 
 ### Link Shortcuts in Editor
 
-A wiki editor should allow for saving the file right away, as well as having a markdown mode and a RTF mode. If using markdown, a cool feature would be to select some text and automatically convert it into a link, either using the web link in the clipboard ("Link From Clipboard"), or converting the text to [kebab-case](formatting-code.md) and instantiating an empty link ("Link to Markdown"). 
+A wiki editor should allow for saving the file right away, as well as having a markdown mode and a RTF mode. If using markdown, a cool feature would be to select some text and automatically convert it into a link, either using the web link in the clipboard ("Link From Clipboard"), or converting the text to [kebab-case](Formatting%20Code.md) and instantiating an empty link ("Link to Markdown"). 
 
 ### Visualization Tool
 

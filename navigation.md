@@ -2,5 +2,5 @@
 	
 # Woodchipper
 
-[Home](index.md)
-[About](about.md)
+[Home](Index.md)
+[About](About.md)
