@@ -32,7 +32,7 @@ One of the biggest issues with Tailwind is finding patterns that could be extrac
 
 ## Random Others
 
-Tailwind can be used alongside [Alpine JS](alpinejs.md) with the :class directive as in:
+Tailwind can be used alongside [Alpine JS](AlpineJS.md) with the :class directive as in:
 
 ```
 <span

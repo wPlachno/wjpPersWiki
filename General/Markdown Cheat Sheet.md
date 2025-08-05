@@ -80,6 +80,17 @@ We want `code` between this.
 
 [Markdown Guide](https://www.markdownguide.org)
 
+Note that in Obsidian, you can also use:
+```
+[[Index|The core of the MDWiki system.]]
+```
+[[Index|The core of the MDWiki system.]]
+
+Also, Obsidian-only, you can insert the body of a note by using:
+```
+![[tailwindcss]]
+```
+![[tailwindcss]]
 ### Image
 
 	![alt text](https://www.markdownguide.org/assets/images/tux.png)

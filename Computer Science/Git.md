@@ -1,6 +1,6 @@
 # Git 
 
-Git is source control, a system for tracking changes to code, while Github is a company which provides servers for hosting git repositories.
+Git is source control, a system for tracking changes to code, separate from [[GitHub]], a company which provides servers for hosting git repositories.
 
 ## Quick Summary
 

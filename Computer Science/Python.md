@@ -1,5 +1,14 @@
 # Python
 
+## Packages
+There are many [[Python Packages]], including:
+- [[json (Python Package)]] - a standard library for parsing JSON
+- [[pytest (Python Package)]] - a testing platform 
+- [[argparse (Python Package)]] - a package for setting up command line interfaces
+- [[requests (Python Package)]] - use requests to complete HTML requests
+- [[Turtle (Python Package)]] - A simple graphics library
+
+## [[Magic Methods - Everything is an Object]]
 ## Documentation
 
 You should use triple quotes after a function definition to include for a pydoc. 

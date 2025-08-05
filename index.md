@@ -33,7 +33,16 @@ Articles about ongoing or past projects, usually personal. Come read about [the 
 
 ### Programming 
 
-Its always good to [have some idea](Formatting%20Code.md) of how to structure code.
+#### Project Management
+
+There are some best practices to follow with any programming project, including:
+- [[Starting a New Project]]
+- [[ReadMe Files]]
+- [[Versioning]]
+- [[Scripting Guidelines]]
+- [[Script Help Tips]]
+
+Its always good to [have some idea](Formatting%20Code.md) of how to format code.
 
 #### Languages
 
@@ -73,9 +82,9 @@ These articles concern the electronics projects I have at home.
 
 ---
 
-## Journalling
+## Journaling
 
 These are private articles. 
 
-[Note-Keeping](notekeeping.md) 
+[[Private Postings]]  
 
