@@ -3,7 +3,7 @@
 Software Developer with 4 years of software experience for small businesses in various sectors. Conceptualized and implemented projects ranging from $1000 to $5000 in budget for companies with 50 to 500,000 users.
 
 ### Contact Info
-
+<style> .tech_list{display: inline-flex;} .tech_point{margin: 2px 2px; background-color: cornflowerblue; padding: 2px 5px; border-radius: 3px;}</style>
 6307 Melvick Pt
 Colorado Springs, CO 80927
 1-(669)-232-7100
@@ -13,9 +13,11 @@ wjplachno+resume@gmail.com
 
 ### Skills
 
-**Languages**: C, C++. C#, Java, Python, x86-64 Assembly, R, Objective C, Visual Basic/VBS, Lua, Ruby, PIC Basic, Typescript, Go, Haskell, HTML, Javascript, CSS
+**Languages**
+<div class="tech_list"><span class="tech_point">C</span><span class="tech_point">C#</span><span class="tech_point">C++</span><span class="tech_point">CSS</span><span class="tech_point">Go</span><span class="tech_point">Haskell</span><span class="tech_point">HTML</span><span class="tech_point">Java</span><span class="tech_point">Javascript</span><span class="tech_point">Lua</span><span class="tech_point">Objective C</span><span class="tech_point">PIC Basic</span><span class="tech_point">Python</span><span class="tech_point">R</span><span class="tech_point">Ruby</span><span class="tech_point">Typescript</span><span class="tech_point">Visual Basic/VBS</span><span class="tech_point">x86-64 Assembly</span></div>
 
-**Packages**: React, NodeJS, ExpressJS, Django, Bootstrap, .NET, XNA, gdb, handlebars, PUG, MSSQL, MySQL, PostgreSQL, Sequelize
+**Packages**: 
+<div class="tech_list"><span class="tech_point">.NET</span><span class="tech_point">Bootstrap</span><span class="tech_point">Django</span><span class="tech_point">ExpressJS</span><span class="tech_point">GDB</span><span class="tech_point">Git</span><span class="tech_point">Handlebars</span><span class="tech_point">Microsoft SQL Server</span><span class="tech_point">MySQL</span><span class="tech_point">NextJS</span><span class="tech_point">NodeJS</span><span class="tech_point">PostgreSQL</span><span class="tech_point">PUG</span><span class="tech_point">React</span><span class="tech_point">Sequelize</span><span class="tech_point">Subversion</span><span class="tech_point">XNA</span></div>
 
 ### Education
 
@@ -34,91 +36,99 @@ De Anza College
 
 **Data Annotation**, Remote — *Full Stack Web Developer*
 <sup>March 2025 - Present</sup>
-<div>
-<span class="tech_point">AI Agent</span>
-<span class="tech_point">React</span>
-<span class="tech_point">Python</span>
-<span class="tech_point">Javascript</span>
-<span class="tech_point">CSS</span>
-<span class="tech_point">HTML</span>
-</div>
+<div class="tech_list"><span class="tech_point">React</span><span class="tech_point">Python</span><span class="tech_point">Javascript</span><span class="tech_point">CSS</span><span class="tech_point">HTML</span></div>
 - Trained AI agents on Web Development and other topics using **Javascript**, **CSS**, **HTML**, **React**, and **Python**.
 
 **Illusive Comics & Games**, Los Gatos — *Customer Service Representative and Games Ordering Manager*
 <sup>November 2019 - Present</sup>
 2455 Stevens Creek Blvd. Santa Clara, Ca. 95051
 408-985-7655
+<div class="tech_list"><span class="tech_point">Bookmarklets</span><span class="tech_point">Booqable</span><span class="tech_point">Booxi</span><span class="tech_point">Canva</span><span class="tech_point">Carde.io</span><span class="tech_point">Discord</span><span class="tech_point">EventLink</span><span class="tech_point">Facebook</span><span class="tech_point">Google Docs</span><span class="tech_point">Google Forms</span><span class="tech_point">Google Sheets</span><span class="tech_point">Homebase</span><span class="tech_point">Instagram</span><span class="tech_point">Lightspeed R-Series</span><span class="tech_point">Lightspeed C-Series</span><span class="tech_point">Melee</span><span class="tech_point">PicMonkey</span><span class="tech_point">TCGPlayer</span></div>
+<div class="tech_list"><span class="tech_point">Python</span><span class="tech_point">Javascript</span><span class="tech_point">CSS</span><span class="tech_point">HTML</span></div>
 - Promoted to Games Manager in August 2022.
 - Implemented an eCommerce solution quickly at the start of the pandemic, then refined and improved it with **User Experience** in mind.
 - Managed a team and improved group cohesion, leading to a 220% increase in revenue despite the Covid epidemic.
-- Used [Lightspeed R-Series Point-Of-Sale](https://www.lightspeedhq.com/pos/watch-a-demo-f/), including customer management, inventory management, and reporting.
-- Used **Google Drive**, including writing equations in **Google Sheets**, and generating a relaxed knowledge base with **Google Docs**, and doing some minor things with **Google Forms**.
-- Used **PicMonkey** and **Canva** for generating promotional material for **Instagram**, **Facebook**, and **Discord**.
-- Used **Homebase** for time-keeping.
-- Used **EventLink** and **Melee** for running events.
-- Used **TCGPlayer** for tracking, pricing, and selling collectables. 
-- Used **Booqable** for tracking rental inventory.
-- Used **Booxi** for booking table rentals.
+- Redesigned workflows for event management, special orders, pricing, and inventory management.
+- Managed the games staff, including hiring, training/coaching, discipline, and task allocation.
+- Served as a company representative at various external events.
+- Daily responsibilities included sales, store maintenance, social media marketing and graphic design, cash handling, receiving inventory, scheduling, event coordination, and IT support.
 
 **Great Bear Coffee**, Los Gatos — *Barista and Manager*
 <sup>June 2015 - September 2019</sup>
 19 N Santa Cruz Ave, Los Gatos, Ca. 95030
 408-395-8607
-- Managed and shaped a team through hiring, teaching, scheduling, ordering, and general support.
-- Most things were done by hand
+<div class="tech_list"><span class="tech_point">Android Development</span><span class="tech_point">C#</span><span class="tech_point">Xamarin</span></div>
+- Managed the staff, including training/coaching, discipline, and task allocation.
+- Managed inventory, including ordering and sales incentive program design and implementation.
+- Designed and implemented a gratuity management application for Android using C#/Xamarin.
+- Daily responsibilities included food and drink preparation, sales, store maintenance, scheduling, till counting, reports, and crisis management.
 
 **lovetessajoy.com**, Los Gatos — *Web Development Assistant*
 <sup>November 2016 - February 2017</sup>
-- Assisted in the setup and maintenance of a WordPress blog
-- Educated the site owner in continuous content generation
+<div class="tech_list"><span class="tech_point">WordPress</span><span class="tech_point">HTML</span><span class="tech_point">PHP</span></div>
+- Implemented site standards and custom pages.  
+- Coached the owner in using WordPress and content creation.
 
 **elqc.com**, Los Gatos — *Web Developer*
 <sup>November 2014 - March 2015</sup>
 24550 Miller Hill Rd, Los Gatos, Ca. 95033
 408-981-3057
-- Designed a website with consistent input from the client
-- Designed graphics according to the needs of the client
-- Used a single-page architecture with **HTML**, **CSS**, and **Javascript**
+<div class="tech_list"><span class="tech_point">CSS</span><span class="tech_point">HTML</span><span class="tech_point">Javascript</span></div>
+- With weekly progress review from the owner, designed a custom website including an order portal, past-piece listings, and contact information.  
+- Implemented the site using HTML/CSS/Javascript.   
+- Did custom graphic design according to the owner’s requirements.
 
 **Kaseya Remote IT Management Solutions**, San Jose — *Software Developer and QA Intern*
 <sup>June 2010 - October 2013</sup>
 2077 Gateway Pl Ste 550, San Jose, Ca, 95110
 415-694-5700
-- Researched new technologies and their usefulness for the company
-- Wrote an endpoint for the support team to quickly pinpoint issues on customer machines 
-- Claimed, managed, and fixed support tickets
-- Utilized functional and penetration testing to test both pre-release and active products
-- Used **C#**, **MSSQL**, **Javascript**, **CSS**, **Subversion**, and **Ruby**
+<div class="tech_list"><span class="tech_point">.NET</span><span class="tech_point">Active Server Pages</span><span class="tech_point">Batch</span><span class="tech_point">C#</span><span class="tech_point">CSS</span><span class="tech_point">HTML</span><span class="tech_point">Javascript</span><span class="tech_point">Lua</span><span class="tech_point">Microsoft SQL Server</span><span class="tech_point">Ruby</span><span class="tech_point">Subversion</span><span class="tech_point">VMWare</span><span class="tech_point">XML</span></div>
+- QA responsibilities included functional and penetration testing, designing and executing test cases, documentation, physical and virtual machine deployment, and script writing using Ruby and Lua.  
+- Software responsibilities included resolving support tickets in Jira, assisting in solution design, researching new technologies, coordinating cross-department communication with QA and Support.  
+- Personally implemented a support-accessible endpoint for closer inspection of customer’s implementation using Microsoft SQL, .NET, C#, HTML, CSS, and Javascript.
 
 **Presidia Inc**, Los Gatos — *Development Intern*
 <sup>June 2009 - October 2009</sup>
+<div class="tech_list"><span class="tech_point">Objective C</span></div>
 - Designed and implemented an iPhone application to calculate profit margins based on product yields
-- Used **Objective-C**
 
 ### Consultant Work
 
 *TPV v. DivX*, Case 37-2022-00024579-CU-CO-CTL,
 Superior Court of the State of California, County of San Diego,
 Filed 06/23/2022, *O'Melvany & Myers LLP*, representing TPV
+<div class="tech_list"><span class="tech_point">Google Sheets</span><span class="tech_point">Python</span></div>
+- Created a Python script to provide better information from grep output files.
 
 ### Projects
 
-Note: This is just a sample. There are many more projects here and there that I no longer have access to because of code being on old computers.	
+Note: This is just a sample. There are many more projects here and there that I no longer have access to because of private code being lost.	
+
+**Woodchipper Scripts**
+<sup>February 2023 - June 2025</sup>
+<div class="tech_list"><span class="tech_point">ArgParse</span><span class="tech_point">DiffLib</span><span class="tech_point">PyTest</span><span class="tech_point">Python</span><span class="tech_point">Pickle</span></div>
+- A [mono-repo](https://github.com/wPlachno/woodchipper-toolset/tree/main) of Python scripts that all use a homegrown toolkit.
+- The toolkit includes a command-line toolkit, logging, and forced separation between data manipulation and output.
+- The scripts include a templating engine, a command-line note system, a `.gitignore` management tool, several scripts for managing an Obsidian knowledge base, and a versioning system aimed at monitoring a toolkit used across repositories.
+- Note that the scripts originally used ArgParse, but the needs of the versioning script required capabilities outside of the library's functionality. The library was essentially rewritten with additional functionality, as seen in `utilities`/`wcparser.py`.
 
 **Tock Server** 
-<sup>August 2022 - December 2022</sup>
-- Used **NextJS**, **ExpressJS**, **PostgreSQL**, **Sequelize**, **Javascript**, **Bootstrap**, **Handlebars**, **HTML**, **CSS**
-A web platform for hosting games of [Tock](https://www.amazon.com/RUSTIK-BJR000129-Tock-Players-Multicolor/dp/B003D9A2T4), including authorization, live chat, and a responsive UI.
+<sup>October 2022 - December 2022</sup>
+<div class="tech_list"><span class="tech_point">BCrypt</span><span class="tech_point">Bootstrap</span><span class="tech_point">CSS</span><span class="tech_point">ExpressJS</span><span class="tech_point">Handlebars</span><span class="tech_point">HTML</span><span class="tech_point">Javascript</span><span class="tech_point">NextJS</span><span class="tech_point">Passport</span><span class="tech_point">PostgreSQL</span><span class="tech_point">Sequalize</span></div>
+- A web platform for hosting games of [Tock](https://www.amazon.com/RUSTIK-BJR000129-Tock-Players-Multicolor/dp/B003D9A2T4), including authorization, live chat, and a responsive UI.
 
-**1000 Year Old Vampire**
-<sup>September 2022 - August 2023</sup>
-- Used **Javascript**, **Python**, **Django**, **Django Templating Language**, **Bootstrap**, **HTML**, **CSS**
-A Django-based web server to administer the game 1000 Year Old Vampire, a single-player, journal-based tabletop roleplaying game.
+**Django-Based CMS** 
+<sup>September 2022 - December 2023</sup>
+<div class="tech_list"><span class="tech_point">Bootstrap</span><span class="tech_point">CSS</span><span class="tech_point">Django</span><span class="tech_point">Handlebars</span><span class="tech_point">HTML</span><span class="tech_point">Javascript</span><span class="tech_point">Python</span></div>
+- A Django-based web server.
+- Included a content management system, designed to manage a wiki-like knowledge base.
+- Included tools to administrate the single-player journaling game 1000 Year Old Vampire.
 
-**Home Server** 
+**Java HTTP Server**
 <sup>August 2022 - September 2022</sup>
-- Used **Python**, **Django**, **HTML**, **CSS**, **Handlebars**
-A Django-based content management system.
+<div class="tech_list"><span class="tech_point">Java</span><span class="tech_point">HTTP</span></div>
+- A from-scratch HTTP server, controlled through a config file, `httpd.conf`.
+- Featured a configurable access port, logging, scripting, caching, and authentication using local `.htaccess` and `.htpassword` files.
 
 ### References
 
